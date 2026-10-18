@@ -1,8 +1,8 @@
 {
-  "version": "1.4.2",
-  "size": 586288,
-  "sha256": "23b63482bf0d9f13f54c043e807b5016bce6002daaf4fe26b400180d780310a5",
-  "url": "https://github.com/dartsim1/dart-airway-releases/releases/download/v1.4.2/dart-airway-1.4.2.bin",
+  "version": "1.4.3",
+  "size": 586416,
+  "sha256": "613b677bac0a1b6eaf486a7481154b1c097b723f3486f12b6fff2cc941d4373f",
+  "url": "https://github.com/dartsim1/dart-airway-releases/releases/download/v1.4.3/dart-airway-1.4.3.bin",
   "minProtocol": 1,
-  "notes": "Lights now judge breath length too: the bar turns red when a squeeze lasts longer than 2 s (too long), and very short jabs under 0.5 s show blue. Matches the app's flags. No Bluetooth protocol changes."
+  "notes": "Lights now flag breathing too fast: a breath that starts too soon after the last one (adult under 4 s apart, child/infant under 1.5 s) is red from the start. Also includes 1.4.2: breaths held over 2 s are red. No Bluetooth protocol changes."
 }
