@@ -1,8 +1,8 @@
 {
-  "version": "1.4.3",
+  "version": "1.4.4",
   "size": 586416,
-  "sha256": "613b677bac0a1b6eaf486a7481154b1c097b723f3486f12b6fff2cc941d4373f",
-  "url": "https://github.com/dartsim1/dart-airway-releases/releases/download/v1.4.3/dart-airway-1.4.3.bin",
+  "sha256": "26336734082b0f49f8c981b343ce518b2218e646e930a11a1eb5b7b36af31203",
+  "url": "https://github.com/dartsim1/dart-airway-releases/releases/download/v1.4.4/dart-airway-1.4.4.bin",
   "minProtocol": 1,
-  "notes": "Lights now flag breathing too fast: a breath that starts too soon after the last one (adult under 4 s apart, child/infant under 1.5 s) is red from the start. Also includes 1.4.2: breaths held over 2 s are red. No Bluetooth protocol changes."
+  "notes": "Fix: the sensor could fall asleep mid-session on battery while an app was connected (timer race). Includes 1.4.2/1.4.3 light changes: red for breaths held over 2 s and for breaths that come too soon (rate too fast). No Bluetooth protocol changes."
 }
