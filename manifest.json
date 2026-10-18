@@ -1,8 +1,8 @@
 {
-  "version": "1.4.1",
-  "size": 586176,
-  "sha256": "19c33d2d5011500ae340b9ad005fd7b13d657bad4b8f325ccfc72eba6da40165",
-  "url": "https://github.com/dartsim1/dart-airway-releases/releases/download/v1.4.1/dart-airway-1.4.1.bin",
+  "version": "1.4.2",
+  "size": 586288,
+  "sha256": "23b63482bf0d9f13f54c043e807b5016bce6002daaf4fe26b400180d780310a5",
+  "url": "https://github.com/dartsim1/dart-airway-releases/releases/download/v1.4.2/dart-airway-1.4.2.bin",
   "minProtocol": 1,
-  "notes": "USER double press switches the sensor off (sleep on battery; on USB lights off with a dim charging bar). Charging bar dimmed. No Bluetooth protocol changes."
+  "notes": "Lights now judge breath length too: the bar turns red when a squeeze lasts longer than 2 s (too long), and very short jabs under 0.5 s show blue. Matches the app's flags. No Bluetooth protocol changes."
 }
