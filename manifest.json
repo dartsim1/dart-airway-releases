@@ -1,8 +1,8 @@
 {
-  "version": "1.4.0",
-  "size": 585712,
-  "sha256": "a9ff057ab934c709a8b449e9ccf6efff4f79983bd1bddb74f41f0931b781818e",
-  "url": "https://github.com/dartsim1/dart-airway-releases/releases/download/v1.4.0/dart-airway-1.4.0.bin",
+  "version": "1.4.1",
+  "size": 586176,
+  "sha256": "19c33d2d5011500ae340b9ad005fd7b13d657bad4b8f325ccfc72eba6da40165",
+  "url": "https://github.com/dartsim1/dart-airway-releases/releases/download/v1.4.1/dart-airway-1.4.1.bin",
   "minProtocol": 1,
-  "notes": "Firmware update over Bluetooth (protocol v1.2): two OTA slots with rollback, blue progress bar, 244-byte chunks. Includes 1.2/1.3 changes: manikin limits, native USB console, self-healing zero, demo mode."
+  "notes": "USER double press switches the sensor off (sleep on battery; on USB lights off with a dim charging bar). Charging bar dimmed. No Bluetooth protocol changes."
 }
