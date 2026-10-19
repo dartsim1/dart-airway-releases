@@ -1,8 +1,8 @@
 {
-  "version": "1.4.5",
+  "version": "1.4.6",
   "size": 586416,
-  "sha256": "d9367d13bf6d269bb45df047c84cf3894cfb143d2171a2a4b4a40f81525dc6e4",
-  "url": "https://github.com/dartsim1/dart-airway-releases/releases/download/v1.4.5/dart-airway-1.4.5.bin",
+  "sha256": "952e7f49950eaa4002cfac8f5ba5cbb6ad852361d543dc0a17d26ff16e0b9563",
+  "url": "https://github.com/dartsim1/dart-airway-releases/releases/download/v1.4.6/dart-airway-1.4.6.bin",
   "minProtocol": 1,
-  "notes": "Infant: a breath reaching 4 bars or more (above 24 cmH2O) is now green; 3 bars or fewer is too soft. No Bluetooth protocol changes."
+  "notes": "Infant: a breath reaching 3 bars or more (above 16 cmH2O) is green; 2 bars or fewer is too soft. Supersedes 1.4.5. No Bluetooth protocol changes."
 }
